@@ -1,0 +1,4 @@
+ - p/e ratio calculations
+ - what values do we need 
+   - what can we just get 
+   - what is speculative? 
