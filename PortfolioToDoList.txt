@@ -1,4 +1,37 @@
  - p/e ratio calculations
  - what values do we need 
-   - what can we just get 
-   - what is speculative? 
+   - what can b
+
+
+Can get: 
+   current stock price 
+   earnings per share 
+      PE: current stock price / EPS 
+
+
+BETA 
+beta = covariance/variance
+covariance: measure of stocks return relative to that of the market
+    measures how to stocks move together 
+    positive means they move together 
+variance: measure of how a stock moves relative to its mean 
+    used in measuring volatility of individual stock prices 
+    over time. variance measures how one stock moves against 
+    itself, covariance measure how two stocks move against each 
+    other. 
+usually use benchmarks like S and P and dow jones as the covariance
+against an individual stock. 
+https://www.investopedia.com/terms/c/correlation.asp 
+will probably need to use excel formulas to calculate beta 
+
+Also look at PEG (price to earnings to growth) ratio 
+PEG less than 1 is undervalued (may be useful in comparing to PE? 
+
+
+calculating EPS 
+   annual AND quarterly - can we graph it? 
+   The quarterly EPS figures can be important when:
+
+The company is growing rapidly.
+The company is restoring profitability after several unprofitable periods. In other words, when the company is having a successful turnaround.
+The company is in decline. It is losing sales, market share, and profits.
