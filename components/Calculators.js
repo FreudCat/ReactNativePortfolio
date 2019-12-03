@@ -9,7 +9,6 @@ class Calculators extends Component
     {
         return(
             <View style={{marginTop:50}}>
-                <MenuButton navigation={this.props.navigation}/>
 				<Text>CALCULATOrs</Text>
 			</View>
         ); 
