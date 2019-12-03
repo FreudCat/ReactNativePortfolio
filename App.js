@@ -1,10 +1,14 @@
 import React from 'react';
-import AppContainer  from "./components/HomeScreenComponent";
+import AppNavigator from "./components/HomescreenComponent"; 
+import { View, Platform, Text } from "react-native";  //platform for navigation
+import { createAppContainer } from 'react-navigation';
+import DrawerNavigator from "./navigation/DrawerNavigator"; 
+
+const AppContainer = createAppContainer(AppNavigator);
 
 export default class App extends React.Component {
   render() {
-    return (
-      <AppContainer />
-    );
+    return <DrawerNavigator />;//in Readt-native 3, needs to have app container in the root for navigation, the final export is from DrawerNavigator.js 
   }
 }
+
